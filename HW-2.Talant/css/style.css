@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 180px;
+	min-height: 180px;
+}
+
+.header{
+	min-height: 180px;
+	display: flex;
+	align-items: center;
+}
+
+.header ul{
+	margin-bottom: 0px;
+}
+
+.header ul li{
+	display: inline-block;
+}
+
+.header a{
+	color: #5a707f;
+	font-size: MuseoSansCyrl, sans-serif;
+	font-size: 20px;
+	padding: 0px 25px;
+	
+}
+
+.header a:hover{
+	color: #ff7700;
+	text-decoration: none;
+}
+
+.phone-number{
+	min-height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.phone-number a{
+	color: #5a707f;
+	font-size: MuseoSansCyrl, sans-serif;
+	font-size: 20px;
+}
+
+.phone-number a:hover{
+	color: #ff7700;
+	text-decoration: none;
+}
+
+/*На этом шапке пришел конец*/
+
+.main-page{
+	min-height: 800px;
+}
+
+
+.discription{
+	}
+
+.main-content img{
+	height: 580px;
+	width: 340px;
+}
+
+.main-content h2{
+	display: flex;
+	justify-content: center;
+	padding: 60px 0px;
+	margin-bottom: 0px;
+}
+
+.discription{
+	position: relative;
+}
+
+.discription p{
+	font-size: 20px;
+	position: absolute;
+	left: 70px;
+	bottom: 70px;
+}
+
+.images {
+	width: 1060px;
+	overflow: hidden;
+}
+
+.sidebar {
+		text-align: right;	
+	padding-right: 70px !important;
+}
+
+.sidebar h2{
+	padding: 60px 0px;
+	margin-bottom: 0px;
+}
+
+
+.sidebar ul li{
+	padding-top: 15px;
+}
+
+.sidebar ul li a{
+	color: #5a707f;
+	font-size: MuseoSansCyrl, sans-serif;
+	font-size: 20px;
+}
+
+.sidebar ul li a:hover{
+	text-decoration: none;
+	color: #ff7700;
+}
+
+.sidebar a img{
+	width: 100px !important;
+	min-height: 100px;
+}
+
+.social-networks{
+	text-align: center;
+	padding-top: 70px;
+}
+
+.social-networks a img{
+	width: 60px;
+	min-height: 60px;
+	margin: 0px 30px;
+}
+
+.social-networks p{
+	padding-top: 25px;
+	color: #0d96f3;
+	font-size: 22px;
+	font-family: Comic Sans MS, sans-serif;
+
+}
+
+
