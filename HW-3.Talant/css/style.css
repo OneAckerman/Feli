@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+.logo{
+	display: block;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.section{
+	width: 756px;
+	min-height: 37px;
+	background-color: #fff;
+	border-bottom: 2px solid #9dc5f0;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.section a{
+	padding: 12px 30px;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #5f5d67;
+	float: left;
+	border: .5px solid #f4f4f4;
+	text-decoration: none;
+}
+
+.section a:hover{
+	color: #000;
+}
+
+.reseption{
+	min-height: 313px;
+	background-image: url('../img/reseption.png');
+	width: 756px;
+	margin: auto;
+}
+
+.content{
+	min-height: 357px;
+	width: 756px;
+	margin: 15px auto;
+	background-color: #f6f6f6;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+}
+
+.first-content{
+	float: left;
+	background-color: #fff;
+	min-height: 357px;
+	padding-top: 35px;
+	padding-left: 29px;
+	padding-right: 28px;
+}
+
+.second-content{
+	float: right;
+	background-color: #fff;
+	min-height: 357px;
+	padding-top: 35px;
+	padding-left: 29px;
+	padding-right: 11px;
+}
+
+.first-content h2{
+	color: #555;
+	font-size: 24px;
+	font-family: Times New Roman, sans-serif;
+	font-weight: normal;
+}
+
+.first-content p{
+	color: #555;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+
+
+.second-content h2{
+	color: #333;
+	font-size: 24px;
+	font-family: Georgia, sans-serif;
+	font-weight: normal;
+}
+
+.second-content p{
+	color: #333;
+	font-size: 14px;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+.first-content p{
+	padding-top: 26px;
+}
+
+.first-content p:nth-child(5){
+	padding-top: 40px;
+}
+
+.second-content p:nth-child(2){
+	padding: 25px 0px;
+}
+
+.edition{
+	width: 756px;
+	margin: auto;
+	margin-bottom: 44px;
+}
+
+.edition p{
+	color: #5f5d67;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
